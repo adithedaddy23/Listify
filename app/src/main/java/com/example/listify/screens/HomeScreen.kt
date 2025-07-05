@@ -241,6 +241,8 @@ fun AddTaskDialog(
     val selectedDateWithoutTime = LocalDateTime.ofInstant(Instant.ofEpochMilli(dueDate), ZoneId.systemDefault())
         .toLocalDate()
 
+    val isPastDate = selectedDateWithoutTime.isBefore(currentDateWithoutTime)
+
     Dialog(
         onDismissRequest = { onDismiss(false) }
     ) {
@@ -314,7 +316,8 @@ fun AddTaskDialog(
                             if (title.isNotBlank()) {
                                 onTaskAdded(title, dueDate)
                             }
-                        }
+                        },
+                        enabled = title.isNotBlank() && !isPastDate
                     ) {
                         Text("Add")
                     }
