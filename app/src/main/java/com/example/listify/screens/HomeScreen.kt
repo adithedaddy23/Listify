@@ -526,38 +526,3 @@ fun TaskListCard(
 
 }
 
-
-@RequiresApi(Build.VERSION_CODES.O)
-@Preview(showBackground = true)
-@Composable
-fun AddTaskDialogPreview(){
-    AddTaskDialog(
-        onDismiss = { /* Do nothing for preview */ },
-        onTaskAdded = { taskName, taskTime ->
-            println("Task Added: Name = $taskName, Time = $taskTime") })
-}
-
-//@Preview(showBackground = true)
-//@Composable
-//fun TaskListCardPreview() {
-//    MaterialTheme {
-//        TaskListCard(
-//            task = TaskEntity(
-//                id = 1,
-//                title = "Complete Mathematics Assignment",
-//                isCompleted = false,
-//                dueDate = 20122024 // Using the format you had in your original code
-//            ),
-//            onTaskCheckedChange = {},
-//            onTaskDelete = {}
-//        )
-//    }
-//}
-
-//@Preview(showBackground = true)
-//@Composable
-//fun TaskHomeScreenPreview(){
-//    val drawerState = rememberDrawerState(DrawerValue.Closed) // Force drawer to open
-//    val scope = rememberCoroutineScope()
-//    TaskHomeScreen(scope, drawerState, modifier = Modifier, navigateToCompletedTasks = {}, navController = NavController(context = CompletedTasksScreen()))
-//}
