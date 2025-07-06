@@ -47,7 +47,7 @@ Designed to help users manage daily tasks with a simple and modern interface, Li
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/YOUR_USERNAME/Listify.git
+    git clone https://github.com/adithedaddy23/Listify.git
     ```
 
 2. Open the project in Android Studio.
