@@ -26,11 +26,9 @@ Designed to help users manage daily tasks with a simple and modern interface, Li
 <p align="center">
   <img src="https://github.com/user-attachments/assets/eff12ee7-c0b6-49fc-b751-b460903a605d" alt="Screenshot 1" width="200"/>
   <img src="https://github.com/user-attachments/assets/8154c5a9-b382-4958-b42a-41217e8790ea" alt="Screenshot 2" width="200"/>
-  <br/>
   <img src="https://github.com/user-attachments/assets/34c3a351-9b7c-4d20-b8ab-40f6cc7b8fe1" alt="Screenshot 3" width="200"/>
   <img src="https://github.com/user-attachments/assets/40debd94-6e9e-440a-b0a6-e937560a5b33" alt="Screenshot 4" width="200"/>
 </p>
-
 
 ---
 
